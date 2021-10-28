@@ -1,0 +1,13 @@
+.btn{
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  background-color: $btn-primary;
+  transition: all 0.3s;
+  color: white;
+
+    &:hover{
+      background-color: darken($btn-primary, 5%);
+    }
+
+}
