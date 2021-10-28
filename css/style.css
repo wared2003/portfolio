@@ -16,6 +16,7 @@ header ul {
   justify-content: center;
 }
 header li {
+  transition: all 0.3s;
   display: block;
   padding: 24px 16px;
 }
@@ -61,6 +62,7 @@ header li:hover a {
   border-color: #ffff;
   margin-top: 40px;
   box-shadow: 4px 4px 6px #0002;
+  transition: all 0.3s;
 }
 .banner .cv_download_btn:hover {
   background-color: #ffff;

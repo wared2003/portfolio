@@ -25,6 +25,7 @@
     border-color: #ffff;
     margin-top: 40px;
     box-shadow: 4px 4px 6px #0002;
+    transition: all 0.3s;
     &:hover{
       background-color: #ffff;
       color: $main-red;
