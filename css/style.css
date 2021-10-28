@@ -1,5 +1,42 @@
 * {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #d82c2e;
+  border-bottom: 1px solid #ffff;
+}
+header ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+header li {
+  display: block;
+  height: 70px;
+  padding: 24px 16px;
+}
+header li a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+header li:hover {
+  background-color: #ffff;
+}
+header li:hover a {
+  color: #d82c2e;
+}
+
+/*general*/
+* {
+  font-family: "Lato", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

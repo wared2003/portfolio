@@ -1,3 +1,9 @@
+@import "abstract/variables.scss",
+"abstract/mixins.scss",
+"layout/reset",
+"layout/header";
+
+/*general*/
 *{
-  margin: 0;
+  font-family: $main-font;
 }
