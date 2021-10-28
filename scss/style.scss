@@ -2,9 +2,17 @@
 "abstract/mixins.scss",
 "layout/reset",
 "layout/header",
-"layout/banner";
+"layout/banner",
+"components/red_divider",
+"layout/competences",
+"components/level_bar";
 
 /*general*/
 *{
   font-family: $main-font;
+}
+/*banner*/
+.banner_red_divider{
+  @extend .red_divider;
+  margin-top: 50px;
 }

@@ -1,0 +1,24 @@
+.competences{
+  h2{
+    color: $main-red;
+    font-size: 36px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .level_bars_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    &>div{
+      margin: 50px 50px;
+      text-align: center;
+      p{
+        margin-bottom: 10px;
+      }
+    }
+    .js .level{
+      width: 80%;
+    }
+  }
+}

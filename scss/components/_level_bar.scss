@@ -1,0 +1,17 @@
+ .level_bar{
+    height: 30px;
+    width: 350px;
+    border: solid 2px $main-red;
+    border-radius: 15px;
+    padding: 0px;
+    overflow: hidden;
+    .level{
+      background-color: $main-red;
+      height: 100%;
+      width: 60%;
+      color: #ffff;
+      text-align: right;
+      padding-right: 10px;
+      padding-top: 4px;
+    }
+  }
