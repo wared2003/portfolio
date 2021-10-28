@@ -17,7 +17,6 @@ header ul {
 }
 header li {
   display: block;
-  height: 70px;
   padding: 24px 16px;
 }
 header li a {
@@ -32,6 +31,46 @@ header li:hover {
 }
 header li:hover a {
   color: #d82c2e;
+}
+
+.banner {
+  background-color: #d82c2e;
+  margin: 0px;
+  height: 700px;
+  text-align: center;
+}
+.banner h1 {
+  color: #ffff;
+  font-size: 36px;
+  margin-top: 16px;
+}
+.banner h2 {
+  font-size: 26px;
+  margin-top: 4px;
+}
+.banner .cv_download_btn {
+  height: 60px;
+  width: 200px;
+  font-style: "Lato", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background: none;
+  border-box: none;
+  border: solid 1px;
+  border-radius: 15px;
+  border-color: #ffff;
+  margin-top: 40px;
+  box-shadow: 4px 4px 6px #0002;
+}
+.banner .cv_download_btn:hover {
+  background-color: #ffff;
+  color: #d82c2e;
+}
+
+.banner_head_picture {
+  width: 380px;
+  display: inline-block;
+  margin-top: 60px;
 }
 
 /*general*/

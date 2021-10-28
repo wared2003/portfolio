@@ -1,0 +1,39 @@
+.banner{
+  background-color: $main-red;
+  margin: 0px;
+  height: 700px;
+  text-align: center;
+  h1{
+    color: #ffff;
+    font-size: 36px;
+    margin-top: 16px;
+  }
+  h2{
+    font-size: 26px;
+    margin-top: 4px;
+  }
+  .cv_download_btn{
+    height: 60px;
+    width: 200px;
+    font-style: $main-font;
+    font-size: 18px;
+    color: #fff;
+    background: none;
+    border-box: none;
+    border: solid 1px;
+    border-radius: 15px;
+    border-color: #ffff;
+    margin-top: 40px;
+    box-shadow: 4px 4px 6px #0002;
+    &:hover{
+      background-color: #ffff;
+      color: $main-red;
+
+    }
+  }
+}
+.banner_head_picture{
+  width: 380px;
+  display: inline-block;
+  margin-top: 60px;
+}
