@@ -9,6 +9,9 @@
   width: 100%;
   height: auto;
   background-color: $main-red;
+  a{
+    text-decoration: none;
+  }
   .flex_container{
 
     display: flex;

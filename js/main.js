@@ -1,3 +1,5 @@
+//j'en ai marre de cette ****** de parrallax de ***** qui fait que bugeeeeerrrr tous le site 3jours que je suis deçu ****** de *****
+
 window.onload = function () {
     console.log(navigator.appName)
     curent_page_dom = document.getElementsByTagName("body")[0];
