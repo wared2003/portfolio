@@ -5,7 +5,9 @@
 "layout/banner",
 "components/red_divider",
 "layout/competences",
-"components/level_bar";
+"components/level_bar",
+"layout/projects_cards",
+'layout/footer';
 
 /*general*/
 *{
@@ -14,5 +16,10 @@
 /*banner*/
 .banner_red_divider{
   @extend .red_divider;
-  margin-top: 50px;
+  margin-top: 1px;
+}
+.projects-cards{
+  .red_divider{
+    background-color: white;
+  }
 }

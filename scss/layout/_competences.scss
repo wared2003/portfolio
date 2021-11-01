@@ -1,11 +1,14 @@
 .competences{
+  padding-top: 50px;
+  position: relative;
+  background-color: #ffffff;
+  display: block;
   h2{
     color: $main-red;
     font-size: 36px;
     margin-top: 30px;
     text-align: center;
   }
-
   .level_bars_container{
     display: flex;
     flex-wrap: wrap;

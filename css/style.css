@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -83,6 +84,12 @@ header li:hover a {
   margin: 0px auto;
 }
 
+.competences {
+  padding-top: 50px;
+  position: relative;
+  background-color: #ffffff;
+  display: block;
+}
 .competences h2 {
   color: #d82c2e;
   font-size: 36px;
@@ -155,6 +162,64 @@ header li:hover a {
   padding-top: 4px;
 }
 
+.projects-cards {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 400px;
+  margin-bottom: 0px;
+  bottom: 1px;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #d82c2e;
+}
+.projects-cards .flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: 100px auto;
+  margin-bottom: 0px;
+  height: auto;
+}
+.projects-cards .flex_container .card {
+  background-color: #ffffff;
+  width: 550px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 26px;
+  margin-bottom: 50px;
+}
+.projects-cards .flex_container .card img {
+  width: 100%;
+}
+.projects-cards .flex_container .card h3 {
+  font-size: 32px;
+  color: #d82c2e;
+  margin-top: 20px;
+}
+.projects-cards .flex_container .card p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.projects-cards h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  border-top: 3px solid #ffffff;
+  background-color: #d82c2e;
+  text-align: center;
+  padding-top: 40px;
+  position: relative;
+}
+
 /*general*/
 * {
   font-family: "Lato", sans-serif;
@@ -162,7 +227,11 @@ header li:hover a {
 
 /*banner*/
 .banner_red_divider {
-  margin-top: 50px;
+  margin-top: 1px;
+}
+
+.projects-cards .red_divider, .projects-cards .banner_red_divider {
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
