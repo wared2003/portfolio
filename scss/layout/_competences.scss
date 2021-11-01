@@ -10,15 +10,45 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     &>div{
-      margin: 50px 50px;
+      margin-top:50px;
       text-align: center;
+      min-width: 360px;
+      width: 30%;
       p{
+        color: $main-red;
+        font-size: 20px;
         margin-bottom: 10px;
       }
     }
     .js .level{
-      width: 80%;
+      width: 85%;
     }
+    .css .level{
+      width: 90%;
+    }
+    .scss .level{
+      width: 75%;
+    }
+    .html .level{
+      width: 100%;
+    }
+    .php .level{
+      width: 95%;
+    }
+    .py .level{
+      width: 70%;
+    }
+    .react_native .level{
+      width: 50%;
+    }
+    .django.level{
+      width: 90%;
+    }.react_native .level{
+       width: 50%;
+     }
   }
 }

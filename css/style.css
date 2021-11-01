@@ -93,19 +93,51 @@ header li:hover a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .competences .level_bars_container > div {
-  margin: 50px 50px;
+  margin-top: 50px;
   text-align: center;
+  min-width: 360px;
+  width: 30%;
 }
 .competences .level_bars_container > div p {
+  color: #d82c2e;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 .competences .level_bars_container .js .level {
-  width: 80%;
+  width: 85%;
+}
+.competences .level_bars_container .css .level {
+  width: 90%;
+}
+.competences .level_bars_container .scss .level {
+  width: 75%;
+}
+.competences .level_bars_container .html .level {
+  width: 100%;
+}
+.competences .level_bars_container .php .level {
+  width: 95%;
+}
+.competences .level_bars_container .py .level {
+  width: 70%;
+}
+.competences .level_bars_container .react_native .level {
+  width: 50%;
+}
+.competences .level_bars_container .django.level {
+  width: 90%;
+}
+.competences .level_bars_container .react_native .level {
+  width: 50%;
 }
 
 .level_bar {
+  display: inline-block;
   height: 30px;
   width: 350px;
   border: solid 2px #d82c2e;
