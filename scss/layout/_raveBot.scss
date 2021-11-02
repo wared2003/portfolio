@@ -1,34 +1,45 @@
-/*j'ai cracouz c'est mocheeeeeeeeeeee*/
-.rave{
-  text-align: center;
-  padding-top: 50px;
-  h2{
+.rave-bot{
+  overflow: hidden;
+  height: 92vh;
+  h1{
     color: #ffff;
     font-size: 36px;
     margin-bottom: 50px;
   }
-  background-color: $main-red;
-  width: 100%;
-  .content{
+  img{
     width: 100%;
   }
-  .imgs{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 20px;
-    height: 600px;
-    grid-template-rows: 500px;
-    .conv{
-      grid-column: 2/3;
-    }
-    .git{
-      grid-column: 3/4;
-    }
-    img{
-      height: 500px;
-      width: 100%;
+  div > div{
+    width: 500px;
+    height: 230px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 30px;
 
+    h3{
+      color: $main-red;
+      font-size: 36px;
+      text-align: left;
     }
+    p{
+      font-size: 24px;
+      color: grey;
+      margin-top: 20px;
+    }
+
+
   }
+  .git-link{
+    display: block;
+    margin-left: auto;
+    margin-right: 60px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 320px;
+  }
+
 }

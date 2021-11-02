@@ -165,7 +165,7 @@ header li:hover a {
 .projects-cards {
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-top: 400px;
+  margin-top: 50px;
   margin-bottom: 0px;
   bottom: 1px;
   position: relative;
@@ -223,38 +223,46 @@ footer {
   position: relative;
 }
 
-/*j'ai cracouz c'est mocheeeeeeeeeeee*/
-.rave {
-  text-align: center;
-  padding-top: 50px;
-  background-color: #d82c2e;
-  width: 100%;
+.rave-bot {
+  overflow: hidden;
+  height: 92vh;
 }
-.rave h2 {
+.rave-bot h1 {
   color: #ffff;
   font-size: 36px;
   margin-bottom: 50px;
 }
-.rave .content {
+.rave-bot img {
   width: 100%;
 }
-.rave .imgs {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-  height: 600px;
-  grid-template-rows: 500px;
+.rave-bot div > div {
+  width: 500px;
+  height: 230px;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  background-color: #ffffff;
+  border-radius: 40px;
+  padding: 30px;
 }
-.rave .imgs .conv {
-  grid-column: 2/3;
+.rave-bot div > div h3 {
+  color: #d82c2e;
+  font-size: 36px;
+  text-align: left;
 }
-.rave .imgs .git {
-  grid-column: 3/4;
+.rave-bot div > div p {
+  font-size: 24px;
+  color: grey;
+  margin-top: 20px;
 }
-.rave .imgs img {
-  height: 500px;
-  width: 100%;
+.rave-bot .git-link {
+  display: block;
+  margin-left: auto;
+  margin-right: 60px;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 320px;
 }
 
 /*general*/
